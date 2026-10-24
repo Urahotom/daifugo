@@ -1,0 +1,15 @@
+# 改行コードの正規化 (リポジトリ内は LF、チェックアウトは設定に追従)
+* text=auto
+
+# ソース / ドキュメントは LF で統一
+*.py  text eol=lf
+*.md  text eol=lf
+*.json text eol=lf
+.gitignore text eol=lf
+.gitattributes text eol=lf
+
+# 実行ファイル・画像などはバイナリとして扱う
+*.png binary
+*.ico binary
+*.wav binary
+*.mp3 binary
