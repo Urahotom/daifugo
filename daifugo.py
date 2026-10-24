@@ -29,7 +29,7 @@ from collections import defaultdict
 from itertools import combinations
 from typing import List, Optional, Tuple
 
-__version__ = "1.0.0"  # 53 枚 / 革命 / 階段 / カード交換 (Joker 交換対象) / 都落ち / 成績記録
+__version__ = "1.0.1"  # 53 枚 / 革命 / 階段 / カード交換 (Joker 交換対象) / 都落ち / 成績記録
 
 # Windows コンソール (cp932 等) でもマーク記号や絵文字が出力できるよう UTF-8 にする
 for _stream in (sys.stdout, sys.stderr):

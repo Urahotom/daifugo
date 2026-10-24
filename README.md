@@ -192,7 +192,20 @@ daifugo/
 ├── daifugo_gui.py      # pygame GUI 版 (Audio / GameModel / App)。ロジックは daifugo を再利用
 ├── daifugo_stats.json  # 成績の保存先 (プレイすると自動生成 / 本日・累計)
 ├── README.md           # このファイル (遊び方)
-└── DESIGN.md           # 設計書 (内部ロジックの詳細)
+├── DESIGN.md           # 設計書 (内部ロジックの詳細)
+└── LICENSE             # MIT License (著作権者: Urahotom)
 ```
 
 詳細な内部設計・判定ロジックは `DESIGN.md` を参照してください。
+
+---
+
+## ライセンス
+
+本リポジトリは **MIT License** のもとで公開されています。詳細は `LICENSE` を参照してください。
+
+```
+MIT License
+
+Copyright (c) 2026 Urahotom
+```
